@@ -22,14 +22,14 @@ This project is a WebGPU-based particle simulation where cells move around and d
 
 File Structure
 /webgpu-cell-simulation
-│──src/
-    │──dividingCells.js
-    │──gpuParticles.js
-    │──particleSystem.js
-    │──style.css
-│── index.html          # Main HTML file with canvas
-│── script.js           # JavaScript file initializing WebGPU
-│── README.md           # Project documentation
+│── src/
+│   │── dividingCells.js    # Handles cell division logic
+│   │── gpuParticles.js     # GPU-accelerated particle system
+│   │── particleSystem.js   # Manages particle behaviors
+│── style.css               # Styling for the simulation
+│── index.html              # Main HTML file with canvas
+│── script.js               # JavaScript file initializing WebGPU
+│── README.md               # Project documentation       # Project documentation
 
 Usage
 	•	Open the project in a browser.
